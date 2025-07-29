@@ -60,8 +60,8 @@ See [`USER_STORIES.md`](./USER_STORIES.md) for detailed user stories covering:
 
 ## External Resources
 
-https://fontawesome.com/
-https://fonts.google.com/
-https://www.mentalhealth.org.uk/explore-mental-health/get-help
-https://www.nhs.uk/nhs-services/mental-health-services/
-https://www.mind.org.uk/
+https://fontawesome.com/<br>
+https://fonts.google.com/<br>
+https://www.mentalhealth.org.uk/explore-mental-health/get-help<br>
+https://www.nhs.uk/nhs-services/mental-health-services/<br>
+https://www.mind.org.uk/<br>
