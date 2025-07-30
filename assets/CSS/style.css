@@ -13,6 +13,7 @@ body {
     --secondary-font: Noto Sans, sans-serif;
     --primary-color: #6C63FF;
     --secondary-color: #36344a;
+    --secondary-color-highlight: #2e2c3e;
     --secondary-color-text: #36344a;
     --highlight-color: #bb485f;
     --highlight-color1: #a33d52;
@@ -54,6 +55,19 @@ body {
     border-color: var(--highlight-color1);
     color: white;
 }
+
+/* Resources Button Styles */
+#resources-btn {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
+}
+#resources-btn:hover {
+    background-color: var(--secondary-color-highlight);
+    border-color: var(--highlight-color1);
+    color: white;
+}
+
 /* Main Layout Styles */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--primary-font);
