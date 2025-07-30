@@ -1,5 +1,110 @@
 
+/* Site-wide gradient background */
+body {
+    background: linear-gradient(to bottom, #ffffff 0%, #827bff 50%, #6C63FF 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
 
+/* Main Layout Styles */
+.hero {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 40px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+/* Card image standardization for main content sections only */
+main .card-img {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Mobile card spacing */
+main .card {
+    margin-bottom: 20px;
+}
+
+/* Specific styling for MyMind section (keeping existing) */
+#mymind .card-img {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Responsive container alignment */
+@media (min-width: 576px) {
+    .hero,
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero,
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /* Remove mobile spacing on larger screens */
+    main .card {
+        margin-bottom: 0;
+    }
+    
+    /* Standardize card images in main content sections only */
+    main .card-img {
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    #myhealth .card-body {
+        min-height: 260px;
+    }
+
+    #mymind .card-img {
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+    }
+    #mymind .card-body {
+        min-height: 355px;
+    }
+     #myfriends .card-body {
+        min-height: 210px;
+    }
+     #mycare .card-body {
+        min-height: 280px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero,
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero,
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
 
 /* grid visualisation CSS for testing */
 
