@@ -12,7 +12,10 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/Images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/Images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/Images/favicon_io/favicon-16x16.png">
-
+    <!-- Google Fonts Preconnects -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -35,16 +38,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">MyHealth</a>
+                        <a class="nav-link active" aria-current="page" href="#myhealth">MyHealth</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MyMind</a>
+                        <a class="nav-link" href="#mymind">MyMind</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MyFriends</a>
+                        <a class="nav-link" href="#myfriends">MyFriends</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MyCare</a>
+                        <a class="nav-link" href="#mycare">MyCare</a>
                     </li>
                 </ul>
             </div>
@@ -52,21 +55,28 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero">
+    <header id="hero"0 class="hero">
         <div class="container">
+            
             <div class="card mb-3">
-                <img src="assets/Images/undraw_mindfulness_v3lv.png" class="card-img" alt="a lady practicing meditation">
+                <h1 id= "hero-title" class="card-title text-center mb-4">Your Mental Health Matters</h1>
+                <img src="assets/Images/undraw_mindfulness_v3lv.png" class="card-img"
+                    alt="a lady practicing meditation">
                 <div class="card-body">
-                    <h1 class="card-title">Your Mental Health Matters</h1>
-                    <p class="card-text">Mental Health issues can happen to anyone.</p>
-                    <p class="card-text"> It can sometimes be difficult when you feel low, anxious or overwhelmed to find the help you need to feel better</p>
-                    <p class="card-text">We're here to help you know who to talk to and what to do to get you back to feeling yourself</p>
-                    <div class="text-end">
+                    <h1 class="card-title">Mental Health issues can happen to anyone.</h1>
+                    <p class="card-text"> It can sometimes be difficult when you feel low, anxious or overwhelmed to
+                        find the help you need to feel better</p>
+                    <p class="card-text">We're here to help you know who to talk to and what to do to get you back to
+                        feeling yourself</p>
+                    <div id="get-help" class="card-body d-flex justify-content-end">
+                        <div class="text-end">
                         <h5 class="card-title">Are you feeling ok?</h5>
                         <p class="card-text">If you or someone else is in danger call 999 or go to A&E now</p>
-                        <p class="card-text">If you need urgent help for your mental health get help from NHS online or call 111</p>
-                        <button type="button" class="btn btn-primary">111</button>
-                        <button type="button" class="btn btn-danger">999</button>
+                        <p class="card-text">If you need urgent help for your mental health get help from NHS online or
+                            call 111</p>
+                        <button type="button" id="btn-111" class="btn">111</button>
+                        <button type="button" id="btn-999" class="btn btn-danger">999</button>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -75,168 +85,208 @@
     <!-- Main Content -->
     <main>
 
-    <!--Immediate Help-->
-    
+        <!--Immediate Help-->
+
         <div class="container">
             <section id="myhealth">
-                <h2>MyHealth</h2>
-            <div class="row">
-            
-            <div class="col-sm-4 mb-3 mb-sm-0">
-                <div class="card">
-                    <img src="assets/Images/undraw_doctor_aum1.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Speak to a medical professional</h5>
-                        <p class="card-text">Contact your Gp for advice and support. Mental health issues dont get better on their own and everyone experiences challenges at some point in their lives.</p>
+                <h2 class="mb-4">MyHealth  <i class="fa-solid fa-house-medical"></i></h2>
+                <div class="row">
 
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/Images/undraw_medicine_hqqg.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Connect with a mental health professional</h5>
-                        <p class="card-text">Your GP will be able to provide you resources to contact mental health services in your area.</p>
+                    <div class="col-sm-4 ">
+                        <div class="card">
+                            <img src="assets/Images/undraw_doctor_aum1.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Speak to a medical professional</h5>
+                                <p class="card-text">Contact your Gp for advice and support. Mental health issues dont
+                                    get better on their own and everyone experiences challenges at some point in their
+                                    lives.</p>
 
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/Images/undraw_online-learning_tgmv.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">You can get help online</h5>
-                        <p class="card-text">You can find resources online. You can even find mental health support that you can access from your home.</p>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        </section>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/Images/undraw_medicine_hqqg.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Connect with a mental health professional</h5>
+                                <p class="card-text">Your GP will be able to provide you resources to contact mental
+                                    health services in your area.</p>
 
-        <!--Understanding Mental Health-->
-        <section id="mymind">
-            <h2>MyMind</h2>
-        <div class="row">
-            
-            <div class="col-sm-4 mb-3 mb-sm-0">
-                <div class="card">
-                    <img src="assets/Images/undraw_void_wez2.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Feeling overwhelmed, stressed or anxious</h5>
-                        <p class="card-text">Anxiety is often described as a feeling of fear or unease – and it’s something everyone experiences at times. Feeling anxious is a perfectly natural reaction to some situation​​s.</p>
-                        
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/Images/undraw_feeling-blue_8si6.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Low mood or Depression</h5>
-                        <p class="card-text">Feeling low is a part of all of our lives at some stage. Everyone feels upset, sad or disheartened from time to time, but for some of us it can be a real problem.
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/Images/undraw_online-learning_tgmv.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">You can get help online</h5>
+                                <p class="card-text">You can find resources online. You can even find mental health
+                                    support that you can access from your home.</p>
 
-The good news is that there are things you can do to improve your mood.</p>
-                        
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/Images/undraw_night-calls_ge07.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Poor sleep</h5>
-                        <p class="card-text">It's important to appreciate why we sleep: to rest and repair our mind and body. It's vital for good physical and mental health and wellbeing.</p>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        </section>
-        <!--Supporting Friends-->
+            </section>
 
-        <section id="myfriends">
-            <h2>MyFriends</h2>
-        <div class="row">
-            
-            <div class="col-sm-4 mb-3 mb-sm-0">
-                <div class="card">
-                    <img src="assets/Images/undraw_people_ka7y.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Be there for your friends</h5>
-                        <p class="card-text">Let your friends know that you are there for them, and that they can talk to you about anything.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/Images/undraw_living_9un5.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Support their feelings</h5>
-                        <p class="card-text">It's important to listen to your friends and validate their feelings. Let them know that it's okay to feel how they feel.</p>
+            <!--Understanding Mental Health-->
+            <section id="mymind">
+                <h2 class="mb-4">MyMind  <i class="fa-solid fa-brain"></i></h2>
+                <div class="row">
 
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/Images/undraw_high-five_w86k.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Invite them to hang out</h5>
-                        <p class="card-text">Spending time together can help your friends feel more connected and supported.</p>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/Images/undraw_void_wez2.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Feeling overwhelmed, stressed or anxious</h5>
+                                <p class="card-text">Anxiety is often described as a feeling of fear or unease – and
+                                    it’s something everyone experiences at times. Feeling anxious is a perfectly natural
+                                    reaction to some situation​​s.</p>
 
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        </section>
-        <!--Self-Care-->
-        <section id="mycare">
-            <h2>MyCare</h2>
-        <div class="row">
-            
-            <div class="col-sm-3 mb-3 mb-sm-0">
-                <div class="card">
-                    <img src="assets/Images/undraw_a-whole-year_aniy.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Be kind to yourself</h5>
-                        <p class="card-text">It's important to treat yourself with compassion and understanding, just as you would a friend.</p>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/Images/undraw_feeling-blue_8si6.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Low mood or Depression</h5>
+                                <p class="card-text">Feeling low is a part of all of our lives at some stage. Everyone
+                                    feels upset, sad or disheartened from time to time, but for some of us it can be a
+                                    real problem.
 
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img src="assets/Images/undraw_home-run_n1g7.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Take part in activities you enjoy</h5>
-                        <p class="card-text">Doing things you enjoy can help improve your mood and reduce feelings of stress and anxiety.</p>
+                                    The good news is that there are things you can do to improve your mood.</p>
 
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img src="assets/Images/undraw_farm-girl_cefo.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Get out in nature</h5>
-                        <p class="card-text">Spending time in nature can help improve your mood and reduce feelings of stress and anxiety.</p>
-                    </div>
-                </div>
-            </div>
-             <div class="col-sm-3">
-                <div class="card">
-                    <img src="assets/Images/undraw_personal-training_1s0k.png" class="card-img" alt="A Person looking at a dark void">
-                    <div class="card-body">
-                        <h5 class="card-title">Exercise!</h5>
-                        <p class="card-text">Physical health is an important aspect of overall well-being. Regular exercise can help reduce anxiety, depression, and stress.</p>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/Images/undraw_night-calls_ge07.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Poor sleep</h5>
+                                <p class="card-text">It's important to appreciate why we sleep: to rest and repair our
+                                    mind and body. It's vital for good physical and mental health and wellbeing.</p>
 
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        </section>
+            </section>
+            <!--Supporting Friends-->
+
+            <section id="myfriends">
+                <h2 class="mb-4">MyFriends  <i class="fa-solid fa-user-group"></i></h2>
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/Images/undraw_people_ka7y.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Be there for your friends</h5>
+                                <p class="card-text">Let your friends know that you are there for them, and that they
+                                    can talk to you about anything.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/Images/undraw_living_9un5.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Support their feelings</h5>
+                                <p class="card-text">It's important to listen to your friends and validate their
+                                    feelings. Let them know that it's okay to feel how they feel.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <img src="assets/Images/undraw_high-five_w86k.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Invite them to hang out</h5>
+                                <p class="card-text">Spending time together can help your friends feel more connected
+                                    and supported.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Self-Care-->
+            <section id="mycare">
+                <h2 class="mb-4">MyCare  <i class="fa-solid fa-hand-holding-medical"></i></h2>
+                <div class="row">
+
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <img src="assets/Images/undraw_a-whole-year_aniy.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Be kind to yourself</h5>
+                                <p class="card-text">It's important to treat yourself with compassion and understanding,
+                                    just as you would a friend.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <img src="assets/Images/undraw_home-run_n1g7.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Take part in activities you enjoy</h5>
+                                <p class="card-text">Doing things you enjoy can help improve your mood and reduce
+                                    feelings of stress and anxiety.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <img src="assets/Images/undraw_farm-girl_cefo.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Get out in nature</h5>
+                                <p class="card-text">Spending time in nature can help improve your mood and reduce
+                                    feelings of stress and anxiety.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card">
+                            <img src="assets/Images/undraw_personal-training_1s0k.png" class="card-img"
+                                alt="A Person looking at a dark void">
+                            <div class="card-body">
+                                <h5 class="card-title">Exercise!</h5>
+                                <p class="card-text">Physical health is an important aspect of overall well-being.
+                                    Regular exercise can help reduce anxiety, depression, and stress.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Resources-->
+            <section id="myresources">
+                <div class="row">
+                <h2 class="mb-4">Resources  <i class="fa-solid fa-book"></i></h2>
+                <button class="col-12 col-sm-6 col-lg-3 mb-2 btn btn-primary" type="button">Button</button>
+                <button class="col-12 col-sm-6 col-lg-3 mb-2 btn btn-primary" type="button">Button</button>
+                <button class="col-12 col-sm-6 col-lg-3 mb-2 btn btn-primary" type="button">Button</button>
+                <button class="col-12 col-sm-6 col-lg-3 mb-2 btn btn-primary" type="button">Button</button>
+                </div>
+            </section>
+               
         </div>
     </main>
 
