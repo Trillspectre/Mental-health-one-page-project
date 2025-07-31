@@ -50,6 +50,7 @@ body {
     background-color: var(--highlight-color-light);
     border-color: var(--highlight-color-light);
     box-shadow: none;
+    color: #36344a;
 }
 
 .btn-modal {
@@ -77,8 +78,9 @@ body {
 #btn-999:hover {
     background-color: var(--highlight-color1);
     border-color: var(--highlight-color1);
-    color: white;
     box-shadow: none;
+    color: #36344a;
+
 }
 
 #health-symbol h1 {
@@ -99,8 +101,8 @@ body {
 .resources-btn:hover {
     background-color: var(--secondary-color-highlight);
     border-color: var(--secondary-color-highlight);
-    color: white;
     box-shadow: none;
+    color: white;
 }
 
 
