@@ -229,6 +229,19 @@ footer a:hover {
     }
 }
 
+@media (min-width: 1024px) {
+
+    .hero,
+    main {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #hero-title {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+}
 @media (min-width: 1200px) {
 
     .hero,
@@ -236,6 +249,20 @@ footer a:hover {
         padding-left: 15px;
         padding-right: 15px;
     }
+}
+
+@media (min-width: 1400px) {
+
+    .hero,
+    main {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #hero-title {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
 }
 
 /* grid visualisation CSS for testing */
