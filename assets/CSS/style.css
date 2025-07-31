@@ -29,20 +29,20 @@ body {
     font-size: 5rem;
     font-weight: bold;
     font-family: var(--primary-font);
-    color:var(--primary-color);
+    color: var(--primary-color);
     text-shadow: 2px 2px 4px #000000;
-    
 }
 
 #get-help {
-    padding-left: 20px;}
+    padding-left: 20px;
+}
 
 
 #btn-111{
     background-color: var(--primary-color);
     border-color: var(--primary-color);                                                                                                                                                                                                                                                                                                                                         
     color: white;
-    box-shadow:2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
 }
 
 #btn-111:hover {
@@ -55,19 +55,19 @@ body {
     background-color: var(--primary-color);
     border-color: var(--primary-color);                                                                                                                                                                                                                                                                                                                                         
     color: white;
-    box-shadow:2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
 }
 
 .btn-modal:hover {
     background-color: var(--highlight-color-light);
     border-color: var(--highlight-color-light);
-    box-shadow: none
+    box-shadow: none;
 }
 #btn-999 {
     background-color: var(--highlight-color);
     border-color: var(--highlight-color);
     color: white;
-    box-shadow:2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
 }
 #btn-999:hover{
     background-color: var(--highlight-color1);
@@ -84,24 +84,23 @@ body {
 }
 
 /* Resources Button Styles */
-#resources-btn {
+.resources-btn {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
     color: white;
-    box-shadow:2px 2px 4px #000000;
-    
+    box-shadow: 2px 2px 4px #000000;
 }
-#resources-btn:hover {
+.resources-btn:hover {
     background-color: var(--secondary-color-highlight);
     border-color: var(--secondary-color-highlight);
     color: white;
-    box-shadow:none
+    box-shadow: none;
 }
 
 
 /* Main Layout Styles */
 .card{
-    box-shadow:2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--primary-font);
@@ -139,11 +138,11 @@ main .card-img {
 }
 
 /*footer styles */
-footer a{
+footer a {
     color: var(--secondary-color);
     text-decoration: underline;
 }
-footer a:hover{
+footer a:hover {
     color: var(--secondary-color-highlight);
     text-decoration: underline;
 }
