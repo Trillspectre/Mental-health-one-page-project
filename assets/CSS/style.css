@@ -57,12 +57,14 @@ body {
     border-color: var(--primary-color);
     color: white;
     box-shadow: 2px 2px 4px #000000;
+    max-width: fit-content;
 }
 
 .btn-modal:hover {
     background-color: var(--highlight-color-light);
     border-color: var(--highlight-color-light);
     box-shadow: none;
+    max-width: fit-content;
 }
 
 #btn-999 {
