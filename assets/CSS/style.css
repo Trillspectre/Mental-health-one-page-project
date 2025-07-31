@@ -36,36 +36,44 @@ body {
 
 #get-help {
     padding-left: 20px;}
+
+
 #btn-111{
     background-color: var(--primary-color);
     border-color: var(--primary-color);                                                                                                                                                                                                                                                                                                                                         
     color: white;
+    box-shadow:2px 2px 4px #000000;
 }
 
 #btn-111:hover {
     background-color: var(--highlight-color-light);
     border-color: var(--highlight-color-light);
+    box-shadow: none;
 }
 
 .btn-modal{
     background-color: var(--primary-color);
     border-color: var(--primary-color);                                                                                                                                                                                                                                                                                                                                         
     color: white;
+    box-shadow:2px 2px 4px #000000;
 }
 
 .btn-modal:hover {
     background-color: var(--highlight-color-light);
     border-color: var(--highlight-color-light);
+    box-shadow: none
 }
 #btn-999 {
     background-color: var(--highlight-color);
     border-color: var(--highlight-color);
     color: white;
+    box-shadow:2px 2px 4px #000000;
 }
 #btn-999:hover{
     background-color: var(--highlight-color1);
     border-color: var(--highlight-color1);
     color: white;
+    box-shadow: none;
 }
 
 #health-symbol h1{
@@ -80,14 +88,21 @@ body {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
     color: white;
+    box-shadow:2px 2px 4px #000000;
+    
 }
 #resources-btn:hover {
     background-color: var(--secondary-color-highlight);
-    border-color: var(--highlight-color1);
+    border-color: var(--secondary-color-highlight);
     color: white;
+    box-shadow:none
 }
 
+
 /* Main Layout Styles */
+.card{
+    box-shadow:2px 2px 4px #000000;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--primary-font);
     color: var(--secondary-color);
@@ -123,9 +138,18 @@ main .card-img {
     object-position: center;
 }
 
-
+/*footer styles */
+footer a{
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+footer a:hover{
+    color: var(--secondary-color-highlight);
+    text-decoration: underline;
+}
 
 /* Responsive container alignment */
+
 @media (min-width: 576px) {
     .hero,
     main {
@@ -182,17 +206,6 @@ main .card-img {
         padding-left: 15px;
         padding-right: 15px;
     }
-}
-
-/* Footer Styles */
-footer a {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: var(--secondary-color-highlight);
-    text-decoration: underline;
 }
 
 /* grid visualisation CSS for testing */
