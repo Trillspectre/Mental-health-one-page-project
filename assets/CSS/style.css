@@ -30,6 +30,8 @@ body {
     font-weight: bold;
     font-family: var(--primary-font);
     color:var(--primary-color);
+    text-shadow: 2px 2px 4px #000000;
+    
 }
 
 #get-help {
@@ -66,6 +68,13 @@ body {
     color: white;
 }
 
+#health-symbol h1{
+    font-size: 7rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 4px #000000;
+}
+
 /* Resources Button Styles */
 #resources-btn {
     background-color: var(--secondary-color);
@@ -83,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     margin-bottom: 20px;
+    
 }
 p{
     font-family: var(--secondary-font);
@@ -106,12 +116,14 @@ main .card-img {
     object-position: center;
 }
 
-/* Specific styling for MyMind section (keeping existing) */
+/* Specific styling for MyMind section */
 #mymind .card-img {
     height: 200px;
     object-fit: cover;
     object-position: center;
 }
+
+
 
 /* Responsive container alignment */
 @media (min-width: 576px) {
@@ -137,7 +149,7 @@ main .card-img {
     }
     
     #myhealth .card-body {
-        min-height: 260px;
+        min-height: 300px;
     }
 
     #mymind .card-img {
@@ -146,13 +158,13 @@ main .card-img {
         object-position: center;
     }
     #mymind .card-body {
-        min-height: 355px;
+        min-height: 370px;
     }
      #myfriends .card-body {
-        min-height: 210px;
+        min-height: 245px;
     }
      #mycare .card-body {
-        min-height: 280px;
+        min-height: 320px;
     }
 }
 
@@ -170,6 +182,17 @@ main .card-img {
         padding-left: 15px;
         padding-right: 15px;
     }
+}
+
+/* Footer Styles */
+footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--secondary-color-highlight);
+    text-decoration: underline;
 }
 
 /* grid visualisation CSS for testing */
