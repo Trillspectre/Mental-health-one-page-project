@@ -31,20 +31,30 @@ body {
     font-family: var(--primary-font);
     color:var(--primary-color);
 }
-#btn-111{
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-    color: white;
-}
 
 #get-help {
     padding-left: 20px;}
+#btn-111{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);                                                                                                                                                                                                                                                                                                                                         
+    color: white;
+}
 
 #btn-111:hover {
     background-color: var(--highlight-color-light);
     border-color: var(--highlight-color-light);
 }
 
+.btn-modal{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);                                                                                                                                                                                                                                                                                                                                         
+    color: white;
+}
+
+.btn-modal:hover {
+    background-color: var(--highlight-color-light);
+    border-color: var(--highlight-color-light);
+}
 #btn-999 {
     background-color: var(--highlight-color);
     border-color: var(--highlight-color);
